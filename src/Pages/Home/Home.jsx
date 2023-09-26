@@ -3,6 +3,8 @@ import Carousel from '../../Component/Carousel/Carousel';
 import Offers from '../../Component/Offer/Offers';
 import Courses from '../../Component/Courses/Courses';
 import Mentors from '../../Component/Mentors/Mentors';
+import Overview from '../../Component/Overview/Overview';
+import Events from '../../Component/Events/Events';
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
             <Offers></Offers>
             <Courses></Courses>
             <Mentors></Mentors>
+            <Overview></Overview>
+            <Events></Events>
         </div>
     );
 };
