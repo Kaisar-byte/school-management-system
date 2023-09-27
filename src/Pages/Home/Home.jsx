@@ -5,6 +5,7 @@ import Courses from '../../Component/Courses/Courses';
 import Mentors from '../../Component/Mentors/Mentors';
 import Overview from '../../Component/Overview/Overview';
 import Events from '../../Component/Events/Events';
+import Opinions from '../../Component/Opinions/Opinions';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Mentors></Mentors>
             <Overview></Overview>
             <Events></Events>
+            <Opinions></Opinions>
         </div>
     );
 };
