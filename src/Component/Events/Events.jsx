@@ -3,6 +3,7 @@ import Event from './Event';
 import quiz from "../../assets/images/events/quiz.jpg";
 import math from "../../assets/images/events/math.jpg";
 import programming from "../../assets/images/events/programming.jpg";
+import Three from '../../Three/Three';
 
 const Events = () => {
     const events = [
@@ -30,7 +31,9 @@ const Events = () => {
     ];
     return (
         <div className='py-10'>
-            <div>
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="bottom-center"
+            >
                 <h2 className='text-4xl text-center py-2 font-bold text-gray-600'>Upcoming Events</h2>
                 <p className='text-lg px-20 text-center py-4'>Every week, we organize a variety of events for our students and undergraduates. From webinars to creative events, there are activities that are always worth your attention.
                 </p>

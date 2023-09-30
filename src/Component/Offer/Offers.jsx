@@ -27,7 +27,9 @@ const Offers = () => {
     ]
     return (
         <div>
-            <div className='my-10'>
+            <div className='my-10'
+                data-aos="fade-in"
+                aos-delay="3000">
                 <h4 className='text-5xl text-gray-800 font-bold text-center mb-4'>What We Offer</h4>
                 <p className='text-center text-lg px-20 mb-6'>Star Shine Institute the best of education and entertainment opportunities available in the area. We are glad to take care of every student and university entrant.
                 </p>

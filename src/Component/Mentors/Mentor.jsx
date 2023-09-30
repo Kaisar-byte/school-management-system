@@ -6,7 +6,8 @@ import { BsLinkedin } from 'react-icons/bs';
 const Mentor = ({ mentor }) => {
     const { mentorsName, mentorsAppt, mentorsImg } = mentor
     return (
-        <div className='flex justify-start gap-2 shadow-xl p-4 bg-red-300 border-2 rounded-md'>
+        <div
+            className='flex justify-start gap-2 shadow-xl p-4 bg-red-300 border-2 rounded-md'>
             <div className="avatar mask mask-hexagon w-20">
                 <img src={mentorsImg} />
             </div>

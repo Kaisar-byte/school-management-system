@@ -5,7 +5,10 @@ import time from "../../assets/images/course/time.png";
 const Course = ({ course }) => {
     const { courseId, courseTitle, courseDuration, courseImg } = course
     return (
-        <div className="card w-50 bg-base-100 shadow-xl">
+        <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="card w-50 bg-base-100 shadow-xl">
             <figure>
                 <img src={courseImg} alt="" />
             </figure>

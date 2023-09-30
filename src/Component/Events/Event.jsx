@@ -7,7 +7,9 @@ import { ImLocation } from "react-icons/im";
 const Event = ({ event }) => {
     const { eventId, eventName, eventTiming, eventImg, eventFee } = event
     return (
-        <div className='w-72'>
+        <div data-aos="zoom-in-left"
+            data-aos-anchor-placement="bottom-center"
+            className='w-72'>
             <img src={eventImg} className='rounded-lg' alt="" />
             <div className='mx-2'>
                 <div className='flex justify-between font-semibold text-lg my-4'>

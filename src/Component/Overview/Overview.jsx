@@ -8,7 +8,10 @@ import { BiSolidSchool } from 'react-icons/bi';
 const Overview = () => {
     return (
         <div className='flex h-96  bg-amber-500'>
-            <div className='w-3/5 pt-4 p-8'>
+            <div data-aos="zoom-in-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className='w-3/5 pt-4 p-8'>
                 <div>
                     <h2 className='text-4xl font-bold py-4 '>Institute Overview</h2>
                     <p className='text-lg'>Star Shine offers quality education helping you build your future career. Here just some of the facts that show why students choose us.</p>
@@ -44,7 +47,11 @@ const Overview = () => {
                     </div>
                 </div>
             </div>
-            <img src={siteInfo} className='w-2/5' alt="" />
+            <img
+                data-aos="fade-in-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                src={siteInfo} className='w-2/5' alt="" />
         </div >
     );
 };

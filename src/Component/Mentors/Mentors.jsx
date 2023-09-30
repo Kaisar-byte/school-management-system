@@ -38,12 +38,21 @@ const Mentors = () => {
     ]
     return (
         <div className='p-12'>
-            <div>
+            <div data-aos="zoom-out-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h2 className='text-center text-4xl text-gray-600 font-bold py-4'>Our Mentors</h2>
                 <p className='text-center text-lgtext-gray-600  py-4 pb-12'>We employ highly experienced and qualified teachers who set the ground for all our programs and courses. They are aimed to help you achieve more on your path to success.
                 </p>
             </div>
-            <div className='grid grid-cols-3 gap-6'>
+            <div data-aos="fade-down-right"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="2000"
+
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                className='grid grid-cols-3 gap-6'>
                 {
                     mentors.map(mentor => <Mentor key={mentor.id} mentor={mentor}></Mentor>)
                 }

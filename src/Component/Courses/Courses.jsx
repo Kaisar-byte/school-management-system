@@ -35,7 +35,9 @@ const Courses = () => {
     ]
     return (
         <div className=' px-12 bg-sky-300'>
-            <div>
+            <div data-aos="zoom-in-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h2 className='text-4xl font-bold text-center py-6'>Our Featured Courses</h2>
                 <p className='text-md text-center mx-24 pb-14'>Our featured courses are selected through a rigorous process and uniquely created for each semester. They cover a lot of topics and are available both online and offline.</p>
             </div>
